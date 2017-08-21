@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    background-color: #CF4646;
+    position: fixed;
+    z-index: 10;
+    border: none;
+}
+.navbar #con_flu a{
+    color:#E8E8E8;
+}
+.navbar #con_flu a:hover{
+    color:white;
+}
+.navbar #con_flu #btn,.navbar #con_flu #btn:hover{
+    background-color: transparent;
+}
+
+#header_main{
+    /*border: none;*/
+    height: 430px;
+    background-color: #CF4646;
+}
+#header_main_net{
+    margin-top: 50px;
+    color: whitesmoke;
+    text-align: center;
+}
+#header_main_net h1{
+    font-size: 120px;
+    font-family: 华文行楷;
+}
+#header_main_net p{
+    font-size: 21px;
+    font-weight: 200;
+}
+#header_main_net button{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px whitesmoke;
+    border-radius: 2px;
+    margin-top: 26px;
+    font-size: 18px;
+}
+#header_main_net button:hover{
+    border: solid 1px #E8E8E8;
+}
+
+
+#main_dist{
+    margin-top: 50px;
+}
+#main_dist p{
+    font-size: 18px;
+}
+#footer_main,#footer_main a{
+    text-align: center;
+    margin-top: 30px;
+    color: #AAAAAA;
+}
